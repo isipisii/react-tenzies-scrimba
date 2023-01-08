@@ -10,7 +10,7 @@ function Die(props) {
             style={styles}
             onClick={props.holdDice}
         >
-            <img src= {`./public/assets/dice-${props.value}.svg`} alt="dice" className="die-img"/>
+            <img src= {`/public/assetss/images/dice-${props.value}.svg`} alt="dice" className="die-img"/>
         </div>
     )
 }
